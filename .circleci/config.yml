@@ -5,5 +5,5 @@ jobs:
       - image: circleci/openjdk:8-jdk-browsers
     steps:
       - checkout
-      _ run: echo "Hello CircleCI!"
+      - run: echo "Hello CircleCI!"
       
